@@ -8,3 +8,12 @@ export const Container = styled.div`
   height: 100vh;
   background-color: #f9f9f9;
 `;
+export const projectContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 934px;
+  height: 613px;
+  margin: 30px 0;
+  background-color: transparent;
+`;
