@@ -11,7 +11,7 @@ const Profile = () => {
           <S.Id>yejz0715</S.Id>
           <S.MailButton>
             메일 보내기
-            <FiSend size="20px" />
+            <FiSend size="18px" />
           </S.MailButton>
         </S.Wrapper>
         <S.Mail>

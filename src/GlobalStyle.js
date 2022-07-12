@@ -19,5 +19,6 @@ body{
   width:100%;
   color: #333;
   font-family: 'Godo';
+  background-color:#f5f5f5;
 }
 `;

@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  width: 623px;
+  height: 176px;
   display: flex;
-  padding: 60px 360px;
+  margin: 60px 0;
+  padding-left: 20px;
+  background-color: transparent;
 `;
 
 export const ProfileImg = styled.img`
@@ -18,6 +22,7 @@ export const ProfileText = styled.div`
   width: 380px;
   height: 200px;
   margin-left: 60px;
+  padding-top: 10px;
 `;
 export const Wrapper = styled.div`
   display: flex;
@@ -25,32 +30,30 @@ export const Wrapper = styled.div`
 
 export const Id = styled.span`
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 600;
+  line-height: 33px;
   margin-bottom: 15px;
 `;
 export const MailButton = styled.button`
-  //width: 109px;
+  width: 109px;
   height: 30px;
   background-color: #f9f9f9;
   border: 1px solid #efefef;
   border-radius: 3px;
   margin-left: 32px;
+  line-height: 16px;
 `;
-export const MailIcon = styled.img`
-  width: 20px;
-  height: 20px;
+
+export const Mail = styled.div`
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 15px;
 `;
 export const Name = styled.label`
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 23.44px;
   margin-bottom: 4px;
-`;
-export const Mail = styled.div`
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-  margin-bottom: 15px;
 `;
 export const Contents = styled.label`
   color: #646464;

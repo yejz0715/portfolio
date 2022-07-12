@@ -20,7 +20,7 @@ export const searchInput = styled.input`
   border-radius: 8px;
   border: none;
   padding-left: 20px;
-  margin: 0 150px;
+  margin: 10px 150px;
 `;
 
 // searchInput.focus
