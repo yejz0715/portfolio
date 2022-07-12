@@ -8,10 +8,18 @@ const MainPresenter = ({ projectList, storyList, handleOnClick }) => (
   <S.Container>
     <Header />
     <Profile />
-    {storyList.length > 0 &&
-      storyList.map((story) => (
-        <Story key={story.id} id={story.id} name={story.name} src={story.src} />
-      ))}
+    <S.storyList>
+      {storyList.length > 0 &&
+        storyList.map((story) => (
+          <Story
+            key={story.id}
+            id={story.id}
+            name={story.name}
+            src={story.src}
+          />
+        ))}
+    </S.storyList>
+    <S.projectText>project</S.projectText>
     <S.projectContainer>
       {projectList.length > 0 &&
         projectList.map((item) => (
