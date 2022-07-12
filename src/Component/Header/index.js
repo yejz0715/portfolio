@@ -8,13 +8,15 @@ const Header = () => {
     <S.headerContainer>
       <S.headerLogo src={"/assets/header_logo.png"} alt="logo" />
       <S.searchInput type="text" placeholder="ex) javascript" />
-
       <S.headerIcon>
         <FiHome size="24px" cursor="pointer" />
+        <a href="https://github.com/yejz0715" target="_blank" rel="noreferrer">
+          <FiGithub size="24px" cursor="pointer" />
+        </a>
 
-        <FiGithub size="24px" cursor="pointer" />
-
-        <BiPencil size="24px" cursor="pointer" />
+        <a href="https://velog.io/@yejz0715" target="_blank" rel="noreferrer">
+          <BiPencil size="24px" cursor="pointer" />
+        </a>
       </S.headerIcon>
     </S.headerContainer>
   );

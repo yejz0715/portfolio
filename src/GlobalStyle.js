@@ -9,6 +9,12 @@ ${reset}
   font-weight: 400;
   src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
 };
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
 body{
   width:100%;
   color: #333;
