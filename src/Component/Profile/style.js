@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 176px;
   display: flex;
   margin: 60px 0;
-  padding-left: 20px;
+  padding-right: 130px;
   background-color: transparent;
 `;
 
@@ -22,7 +22,7 @@ export const ProfileText = styled.div`
   width: 380px;
   height: 200px;
   margin-left: 60px;
-  padding-top: 10px;
+  padding-top: 25px;
 `;
 export const Wrapper = styled.div`
   display: flex;
