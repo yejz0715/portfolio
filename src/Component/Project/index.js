@@ -11,11 +11,14 @@ const Project = ({
   images,
   tag,
   handleOnClick,
+  isShow,
 }) => {
   return (
-    <S.Container onClick={handleOnClick}>
-      <S.backgroundImage style={{ backgroundImage: `url(${images[0]})` }} />
-    </S.Container>
+    <S.Container
+      style={{ backgroundImage: `url(${images[0]})` }}
+      onClick={handleOnClick}
+      isShow={isShow}
+    ></S.Container>
   );
 };
 export default Project;
