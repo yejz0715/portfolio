@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { FiXSquare } from "react-icons/fi";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -33,4 +33,20 @@ export const projectContainer = styled.div`
   height: 613px;
   margin-top: 10px;
   background-color: transparent;
+`;
+export const background = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+`;
+export const deleteButton = styled(FiXSquare)`
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+  color: #d5d5d5;
 `;
