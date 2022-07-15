@@ -16,7 +16,8 @@ a{
 }
 
 body{
-  width:100%;
+  width:100vw;
+  height: 100vh;
   color: #333;
   font-family: 'Godo';
   background-color:#f5f5f5;
