@@ -1,11 +1,26 @@
 import MainPresenter from "./MainPresenter";
-import { projectList, storyList } from "../../data/list/dummy";
+import { projectList, storyList, myStoryImgList } from "../../data/list/dummy";
 import { useState } from "react";
 const MainContainer = () => {
-  const [isShow, setShow] = useState(false);
+  const [isShowProject, setShowProject] = useState(false);
+  const [isShowStory, setShowStory] = useState(false);
+  const [curValue, setCurValue] = useState(null);
 
-  const handleOnClick = () => {
-    setShow(true);
+  const handleOnClick = (clickItem) => {
+    setShowProject(true);
+    console.log(clickItem);
+
+    setCurValue(() =>
+      projectList.filter((listItem) => {
+        return clickItem === listItem.id;
+      })
+    );
+  };
+  console.log(curValue);
+
+  const handleShowStory = () => {
+    setShowStory(true);
+    console.log("y");
   };
 
   return (
@@ -13,8 +28,13 @@ const MainContainer = () => {
       projectList={projectList}
       storyList={storyList}
       handleOnClick={handleOnClick}
-      isShow={isShow}
-      setShow={setShow}
+      isShowProject={isShowProject}
+      setShowProject={setShowProject}
+      handleShowStory={handleShowStory}
+      curValue={curValue}
+      isShowStory={isShowStory}
+      setShowStory={setShowStory}
+      myStoryImgList={myStoryImgList}
     />
   );
 };
