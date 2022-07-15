@@ -4,8 +4,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 `;
 export const storyList = styled.div`
   width: 931px;
@@ -35,18 +36,29 @@ export const projectContainer = styled.div`
   background-color: transparent;
 `;
 export const background = styled.div`
+  /* z-index: 1000;
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: ${(props) =>
+    props.type === "pop" ? "rgba(0, 0, 0, 0.6)" : "#f5f5f5"};
+
+  /* background-color: ${(props) =>
+    props.type === "story" ? "#575757" : "rgba(0, 0, 0, 0.8)"}; */
 `;
 export const deleteButton = styled(FiXSquare)`
   position: absolute;
   top: 30px;
   right: 50px;
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   color: #d5d5d5;
+`;
+export const wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
