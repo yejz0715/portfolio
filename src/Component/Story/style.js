@@ -16,7 +16,7 @@ export const imgWrapper = styled.div`
   border: 1px solid #f5f5f5;
   border-radius: 50%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 `;
 export const icon = styled.img`
   width: 72px;
