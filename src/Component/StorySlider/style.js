@@ -15,7 +15,7 @@ export const CustomSlider = styled(Slider)`
   .slick-list {
     width: 523px;
     border-radius: 16px;
-    margin: 25px 0px;
+    margin: 25px 10px;
   }
   .slick-slide div {
     width: 523px !important;
@@ -43,9 +43,18 @@ export const Img = styled.div`
 
 export const deleteButton = styled(FiXSquare)`
   position: absolute;
-  top: 30px;
-  right: 50px;
+  top: 20px;
+  right: 20px;
   width: 36px;
   height: 36px;
   color: #d5d5d5;
+  padding: 10px;
+`;
+
+export const logoIcon = styled.img`
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 192px;
+  height: 60px;
 `;

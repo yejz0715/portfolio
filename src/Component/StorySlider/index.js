@@ -19,7 +19,8 @@ const StorySlider = ({ myStoryImgList, setShowStory }) => {
           <S.Img key={item.id} imgPath={item.src} />
         ))}
       </S.CustomSlider>
-      <button onClick={() => setShowStory(false)}>삭제</button>
+      <S.logoIcon src="./assets/log_imgrm.png" />
+      <S.deleteButton onClick={() => setShowStory(false)} />
     </S.container>
   );
 };
