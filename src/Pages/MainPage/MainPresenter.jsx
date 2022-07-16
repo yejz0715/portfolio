@@ -26,13 +26,6 @@ const MainPresenter = ({
       <S.background type="project">
         {isShowProject ? (
           <S.background type="pop">
-            {
-              <S.deleteButton
-                onClick={() => {
-                  setShowProject(false);
-                }}
-              />
-            }
             {curValue.map((item) => (
               <PopUp
                 key={item.id}
@@ -46,6 +39,7 @@ const MainPresenter = ({
                 demoUrl={item.demoUrl}
                 images={item.images}
                 tag={item.tag}
+                setShowProject={setShowProject}
               />
             ))}
           </S.background>
