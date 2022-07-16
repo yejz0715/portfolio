@@ -1,21 +1,19 @@
 import React from "react";
 import * as S from "./style.js";
-//import userImg from "../../assets/intro_img.png";
-import { FiMail, FiSend } from "react-icons/fi";
-const Profile = () => {
+const Profile = ({ handleShowStory }) => {
   return (
-    <S.Container>
+    <S.Container onClick={handleShowStory}>
       <S.ProfileImg src={"/assets/intro_img.png"} alt="image" />
       <S.ProfileText>
         <S.Wrapper>
           <S.Id>yejz0715</S.Id>
           <S.MailButton>
             메일 보내기
-            <FiSend size="18px" />
+            <S.sendIcon />
           </S.MailButton>
         </S.Wrapper>
         <S.Mail>
-          <FiMail size="22px" color="red" />
+          <S.mailIcon />
           yejz0715@gmail.com
         </S.Mail>
         <S.Name>이예지</S.Name>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FiMail, FiSend } from "react-icons/fi";
 
 export const Container = styled.div`
   width: 623px;
@@ -22,7 +23,7 @@ export const ProfileText = styled.div`
   width: 380px;
   height: 200px;
   margin-left: 60px;
-  padding-top: 25px;
+  padding-top: 10px;
 `;
 export const Wrapper = styled.div`
   display: flex;
@@ -32,22 +33,33 @@ export const Id = styled.span`
   font-size: 28px;
   font-weight: 600;
   line-height: 33px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 `;
 export const MailButton = styled.button`
-  width: 109px;
-  height: 30px;
+  width: 120px;
+  height: 32px;
   background-color: #f9f9f9;
   border: 1px solid #efefef;
   border-radius: 3px;
   margin-left: 32px;
   line-height: 16px;
+  font-size: 14px;
+  text-align: center;
+`;
+export const sendIcon = styled(FiSend)`
+  size: 20px;
+  padding: 5px 0 0 6px;
 `;
 
+export const mailIcon = styled(FiMail)`
+  size: 22px;
+  margin-right: 6px;
+  color: #720000;
+`;
 export const Mail = styled.div`
   display: flex;
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 19px;
 `;
 export const Name = styled.label`
   font-size: 20px;
