@@ -5,7 +5,7 @@ import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
 const PopImgSlider = ({ images, id }) => {
   const settings = {
-    dots: true,
+    dots: false,
     fade: true,
     infinite: false,
     speed: 500,
