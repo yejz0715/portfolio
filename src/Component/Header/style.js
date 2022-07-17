@@ -37,10 +37,14 @@ export const HeaderIconWrapper = styled.ul`
 
 export const HeaderIconLabel = styled.label`
   position: absolute;
-  top: 50px;
+  height: 18px;
+  top: 40px;
   display: none;
   background-color: black;
+  border-radius: 2px;
   color: #fff;
+  font-weight: bold;
+  line-height: 18px;
 `;
 
 export const HeaderIcon = styled.li`

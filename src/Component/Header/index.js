@@ -16,7 +16,12 @@ const Header = ({ handleOnChange, handleOnKeyEnter }) => {
         onKeyPress={handleOnKeyEnter}
       />
       <S.HeaderIconWrapper>
-        <FiHome size="24px" cursor="pointer" />
+        <S.HeaderIcon>
+          <FiHome size="24px" cursor="pointer" />
+          <S.HeaderIconLabel style={{ backgroundColor: "#7C39AE" }}>
+            home
+          </S.HeaderIconLabel>
+        </S.HeaderIcon>
         <S.HeaderIcon>
           <a
             href="https://github.com/yejz0715"
@@ -28,9 +33,14 @@ const Header = ({ handleOnChange, handleOnKeyEnter }) => {
 
           <S.HeaderIconLabel>github</S.HeaderIconLabel>
         </S.HeaderIcon>
-        <a href="https://velog.io/@yejz0715" target="_blank" rel="noreferrer">
-          <BiPencil size="24px" cursor="pointer" />
-        </a>
+        <S.HeaderIcon>
+          <a href="https://velog.io/@yejz0715" target="_blank" rel="noreferrer">
+            <BiPencil size="24px" cursor="pointer" />
+          </a>
+          <S.HeaderIconLabel style={{ backgroundColor: "#20C997" }}>
+            velog
+          </S.HeaderIconLabel>
+        </S.HeaderIcon>
       </S.HeaderIconWrapper>
     </S.HeaderContainer>
   );
