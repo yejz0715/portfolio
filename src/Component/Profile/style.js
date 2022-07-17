@@ -10,13 +10,35 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 `;
+export const ProfileImgLabel = styled.label`
+  position: absolute;
+  top: -20px;
+  display: none;
+  height: 20px;
+  line-height: 23px;
+  background-color: #f5c125;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #fff;
+`;
+export const ProfileImgWrapper = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  &:hover {
+    ${ProfileImgLabel} {
+      display: inline;
+    }
+  }
+`;
 
 export const ProfileImg = styled.img`
   width: 180px;
   height: 180px;
   background-color: transparent;
   border-radius: 50%;
-  cursor: pointer;
+
   border: 2px solid #d9d9d9;
   padding: 6px;
 `;
