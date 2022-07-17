@@ -3,12 +3,20 @@ import reset from "styled-reset";
 export const GlobalStyle = createGlobalStyle`
 
 ${reset}
+
+
 @font-face {
-  font-family: 'Godo';
-  font-style: normal;
-  font-weight: 400;
-  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
-};
+    font-family: 'GangwonEdu_OTFLightA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFLightA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 a{
   text-decoration: none;
@@ -19,7 +27,7 @@ body{
   width:100vw;
   height: 100vh;
   color: #333;
-  font-family: 'Godo';
-  background-color:#f5f5f5;
+  font-family: 'GangwonEdu_OTFLightA';
+  background-color:#fafafa;
 }
 `;
