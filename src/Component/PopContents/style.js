@@ -1,21 +1,36 @@
 import styled from "styled-components";
 export const container = styled.div`
+  position: relative;
   background-color: #ffffff;
-  width: 444px;
-  height: 800px;
+  width: 421px;
+  box-sizing: border-box;
+  height: 90%;
+  min-height: 720px;
+`;
+
+export const UserImg = styled.div`
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #d9d9d9;
+  margin-right: 8px;
+  background-image: ${(props) => (props.path ? `url(${props.path})` : "none")};
 `;
 export const box = styled.div`
   display: flex;
   align-items: center;
-  width: 100%;
-  height: 64px;
+  height: 54px;
   border-bottom: 1px solid #d9d9d9;
-  margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 16px;
+  padding-left: 20px;
+  cursor: default;
 `;
-export const wrapper = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  margin: 0px 20px;
 `;
 export const text = styled.p`
   padding: 5px 20px;
@@ -23,10 +38,35 @@ export const text = styled.p`
   font-weight: 400;
   line-height: 23px;
 `;
-export const tag = styled.label`
-  padding: 5px 20px;
-  font-size: 20px;
+export const TagBox = styled.div`
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+`;
+export const tag = styled.p`
+  font-size: 16px;
   font-weight: 400;
   line-height: 23px;
   color: rgba(5, 59, 110, 1);
+`;
+
+export const SubTitle = styled.label`
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+`;
+export const Description = styled.label`
+  color: ${(props) =>
+    props.type === "link" ? "rgba(5, 59, 110, 1);" : "#646464"};
+  cursor: ${(props) => (props.type === "link" ? "pointer" : "default")};
+  font-size: 16px;
+  margin-bottom: 4px;
+`;
+
+export const DevTime = styled.label`
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 14px;
+  color: #c4c4c4;
 `;
