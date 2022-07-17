@@ -13,15 +13,13 @@ const Profile = ({ handleShowStory }) => {
           <S.Id>yejz0715</S.Id>
           <S.MailButton href="mailto:yejz0715@gmail.com">
             메일 보내기
-            <S.sendIcon />
+            <S.SendIcon />
           </S.MailButton>
         </S.Wrapper>
         <S.Mail>
-          <img
+          <S.MailImg
             src={process.env.PUBLIC_URL + "/images/gmail_icon.png"}
             alt="gmail"
-            width="22px"
-            style={{ marginRight: "4px" }}
           />
           yejz0715@gmail.com
         </S.Mail>

@@ -13,15 +13,15 @@ const StorySlider = ({ myStoryImgList, setShowStory }) => {
   };
 
   return (
-    <S.container>
+    <S.Container>
       <S.CustomSlider {...settings}>
         {myStoryImgList.map((item) => (
           <S.Img key={item.id} imgPath={item.src} />
         ))}
       </S.CustomSlider>
-      <S.logoIcon src={process.env.PUBLIC_URL + "/images/log_imgrm.png"} />
-      <S.deleteButton onClick={() => setShowStory(false)} />
-    </S.container>
+      <S.LogoIcon src={process.env.PUBLIC_URL + "/images/log_imgrm.png"} />
+      <S.DeleteButton onClick={() => setShowStory(false)} />
+    </S.Container>
   );
 };
 export default StorySlider;

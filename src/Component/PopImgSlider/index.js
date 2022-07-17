@@ -14,11 +14,11 @@ const PopImgSlider = ({ images, id }) => {
   };
   return (
     <S.Container>
-      <S.customSlider {...settings}>
-        {images.map((item) => (
-          <S.img key={id} imgPath={item} />
+      <S.CustomSlider {...settings}>
+        {images.map((item, index) => (
+          <S.Img key={id} imgPath={item} />
         ))}
-      </S.customSlider>
+      </S.CustomSlider>
     </S.Container>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import * as S from "./style.js";
 const PopContents = ({
-  id,
   name,
   period,
   intro,
@@ -12,19 +11,19 @@ const PopContents = ({
   tag,
 }) => {
   return (
-    <S.container>
-      <S.box>
+    <S.Container>
+      <S.UserBox>
         <S.UserImg path={process.env.PUBLIC_URL + "/images/user_yeji.jpg"} />
         yejz0715
-      </S.box>
+      </S.UserBox>
       <S.Wrapper>
         <S.SubTitle>💡 프로젝트명</S.SubTitle>
         <S.Description>{name}</S.Description>
         <S.SubTitle>🔥 소개</S.SubTitle>
         <S.Description>{intro}</S.Description>
-        <S.SubTitle>🔥 개발스택</S.SubTitle>
+        <S.SubTitle>🔥 개발 스택</S.SubTitle>
         <S.Description>{skill}</S.Description>
-        <S.SubTitle>🔥 담당업무</S.SubTitle>
+        <S.SubTitle>🔥 담당 업무</S.SubTitle>
         {responsibilities.map((item, index) => (
           <S.Description key={index}>
             {index + 1}. {item}
@@ -42,14 +41,14 @@ const PopContents = ({
         )}
 
         <S.TagBox>
-          {tag.map((item) => (
-            <S.tag key={item}># {item}</S.tag>
+          {tag.map((item, index) => (
+            <S.Tag key={index}># {item}</S.Tag>
           ))}
         </S.TagBox>
 
         <S.DevTime>{period}</S.DevTime>
       </S.Wrapper>
-    </S.container>
+    </S.Container>
   );
 };
 export default PopContents;

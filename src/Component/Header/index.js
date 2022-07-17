@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from "./style.js";
-//import headerLogo from "../../assets/header_logo.png";
 import { FiHome, FiGithub } from "react-icons/fi";
 import { BiPencil } from "react-icons/bi";
 const Header = ({ handleOnChange, handleOnKeyEnter }) => {

@@ -8,7 +8,6 @@ import * as S from "./style.js";
 import StorySlider from "../../Component/StorySlider";
 
 const MainPresenter = ({
-  projectList,
   searchedProjectList,
   storyList,
   handleOnClick,
@@ -26,7 +25,7 @@ const MainPresenter = ({
     <StorySlider myStoryImgList={myStoryImgList} setShowStory={setShowStory} />
   ) : (
     <S.Container>
-      <S.background isShowProject={isShowProject}>
+      <S.Background isShowProject={isShowProject}>
         {isShowProject ? (
           curValue.map((item) => (
             <PopUp
@@ -50,9 +49,9 @@ const MainPresenter = ({
               handleOnChange={handleOnChange}
               handleOnKeyEnter={handleOnKeyEnter}
             />
-            <S.wrapper>
+            <S.Wrapper>
               <Profile handleShowStory={handleShowStory} />
-              <S.storyList>
+              <S.StoryList>
                 {storyList.length > 0 &&
                   storyList.map((story) => (
                     <Story
@@ -62,9 +61,9 @@ const MainPresenter = ({
                       src={story.src}
                     />
                   ))}
-              </S.storyList>
-              <S.projectText>project</S.projectText>
-              <S.projectContainer>
+              </S.StoryList>
+              <S.ProjectText>project</S.ProjectText>
+              <S.ProjectContainer>
                 {searchedProjectList.length > 0 ? (
                   searchedProjectList.map((item) => (
                     <Project
@@ -77,13 +76,13 @@ const MainPresenter = ({
                     />
                   ))
                 ) : (
-                  <p>조회된 데이터가 없습니다!!</p>
+                  <h1>조회된 데이터가 없습니다!!</h1>
                 )}
-              </S.projectContainer>
-            </S.wrapper>
+              </S.ProjectContainer>
+            </S.Wrapper>
           </>
         )}
-      </S.background>
+      </S.Background>
     </S.Container>
   );
 export default MainPresenter;

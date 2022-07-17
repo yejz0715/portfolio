@@ -1,6 +1,6 @@
 import MainPresenter from "./MainPresenter";
 import { projectList, storyList, myStoryImgList } from "../../data/list/dummy";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 const MainContainer = () => {
   const [isShowProject, setShowProject] = useState(false);
   const [isShowStory, setShowStory] = useState(false);
@@ -10,7 +10,6 @@ const MainContainer = () => {
 
   const handleOnClick = (clickItem) => {
     setShowProject(true);
-    console.log(clickItem);
 
     setCurValue(() =>
       projectList.filter((listItem) => {
@@ -18,11 +17,9 @@ const MainContainer = () => {
       })
     );
   };
-  console.log(curValue);
 
   const handleShowStory = () => {
     setShowStory(true);
-    console.log("y");
   };
 
   const handleOnChange = (e) => {

@@ -8,14 +8,14 @@ export const Container = styled.div`
   width: 100%;
   height: 100%;
 `;
-export const storyList = styled.div`
+export const StoryList = styled.div`
   width: 931px;
   border-bottom: 1px solid #dbdcdd;
   display: flex;
   align-items: center;
   padding-bottom: 40px;
 `;
-export const projectText = styled.div`
+export const ProjectText = styled.div`
   height: 44px;
   width: 100px;
   margin-top: 12px;
@@ -26,7 +26,7 @@ export const projectText = styled.div`
   font-size: 14px;
   color: #646464;
 `;
-export const projectContainer = styled.div`
+export const ProjectContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
@@ -35,7 +35,7 @@ export const projectContainer = styled.div`
   margin-top: 10px;
   background-color: transparent;
 `;
-export const background = styled.div`
+export const Background = styled.div`
   display: ${(props) => (props.isShowProject ? "flex" : "grid")};
   align-items: center;
   width: 100%;
@@ -43,7 +43,7 @@ export const background = styled.div`
   background-color: ${(props) =>
     props.isShowProject ? "#575757" : "transparent"};
 `;
-export const deleteButton = styled(FiXSquare)`
+export const DeleteButton = styled(FiXSquare)`
   position: absolute;
   top: 30px;
   right: 50px;
@@ -51,7 +51,7 @@ export const deleteButton = styled(FiXSquare)`
   height: 36px;
   color: #d5d5d5;
 `;
-export const wrapper = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;

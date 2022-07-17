@@ -1,12 +1,12 @@
 import styled from "styled-components";
-export const container = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-left: 30px;
 `;
-export const imgWrapper = styled.div`
+export const ImgWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,15 +17,14 @@ export const imgWrapper = styled.div`
   border-radius: 50%;
   margin-bottom: 15px;
 `;
-export const icon = styled.img`
+export const Icon = styled.img`
   width: 72px;
   height: 72px;
   border-radius: 50%;
   background-color: #fff;
-  //margin-bottom: 8px;
 `;
 
-export const text = styled.label`
+export const Text = styled.label`
   font-weight: bold;
   font-size: 14px;
 `;

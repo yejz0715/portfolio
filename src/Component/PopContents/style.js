@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const container = styled.div`
+export const Container = styled.div`
   position: relative;
   background-color: #ffffff;
   width: 421px;
@@ -18,7 +18,7 @@ export const UserImg = styled.div`
   margin-right: 8px;
   background-image: ${(props) => (props.path ? `url(${props.path})` : "none")};
 `;
-export const box = styled.div`
+export const UserBox = styled.div`
   display: flex;
   align-items: center;
   height: 54px;
@@ -32,7 +32,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   margin: 0px 20px;
 `;
-export const text = styled.p`
+export const Text = styled.p`
   padding: 5px 20px;
   font-size: 20px;
   font-weight: 400;
@@ -43,7 +43,7 @@ export const TagBox = styled.div`
   bottom: 100px;
   left: 20px;
 `;
-export const tag = styled.p`
+export const Tag = styled.p`
   font-size: 16px;
   font-weight: 400;
   line-height: 23px;

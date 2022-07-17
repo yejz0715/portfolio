@@ -16,11 +16,10 @@ const PopUp = ({
   setShowProject,
 }) => {
   return (
-    <S.container>
+    <S.Container>
       <PopImgSlider id={id} images={images} />
 
       <PopContents
-        id={id}
         name={name}
         period={period}
         intro={intro}
@@ -30,12 +29,12 @@ const PopUp = ({
         demoUrl={demoUrl}
         tag={tag}
       />
-      <S.deleteButton
+      <S.DeleteButton
         onClick={() => {
           setShowProject(false);
         }}
       />
-    </S.container>
+    </S.Container>
   );
 };
 export default PopUp;

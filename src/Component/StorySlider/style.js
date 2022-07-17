@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Slider from "react-slick";
 import { FiX } from "react-icons/fi";
 
-export const container = styled.div`
+export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@ export const Img = styled.div`
     props.imgPath ? `url(${props.imgPath})` : "none"};
 `;
 
-export const deleteButton = styled(FiX)`
+export const DeleteButton = styled(FiX)`
   position: absolute;
   top: 3px;
   right: 3px;
@@ -53,7 +53,7 @@ export const deleteButton = styled(FiX)`
   padding: 10px;
 `;
 
-export const logoIcon = styled.img`
+export const LogoIcon = styled.img`
   position: absolute;
   top: 5px;
   left: 10px;

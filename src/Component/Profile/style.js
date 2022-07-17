@@ -64,6 +64,11 @@ export const Mail = styled.div`
   line-height: 20px;
   margin-bottom: 19px;
 `;
+
+export const MailImg = styled.img`
+  width: 22px;
+  margin-right: 5px;
+`;
 export const Name = styled.label`
   font-size: 20px;
   font-weight: 500;

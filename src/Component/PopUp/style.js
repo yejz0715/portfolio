@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FiX } from "react-icons/fi";
-export const container = styled.div`
+export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@ export const container = styled.div`
   max-height: 891px;
 `;
 
-export const deleteButton = styled(FiX)`
+export const DeleteButton = styled(FiX)`
   position: absolute;
   top: 3px;
   right: 3px;

@@ -2,12 +2,12 @@ import React from "react";
 import * as S from "./style.js";
 const Story = ({ id, name, src }) => {
   return (
-    <S.container>
-      <S.imgWrapper id={id}>
-        <S.icon src={src} />
-      </S.imgWrapper>
-      <S.text>{name}</S.text>
-    </S.container>
+    <S.Container>
+      <S.ImgWrapper id={id}>
+        <S.Icon src={src} />
+      </S.ImgWrapper>
+      <S.Text>{name}</S.Text>
+    </S.Container>
   );
 };
 export default Story;

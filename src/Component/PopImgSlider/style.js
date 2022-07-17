@@ -7,7 +7,7 @@ export const Container = styled.div`
   min-height: 720px;
   background-color: black;
 `;
-export const customSlider = styled(Slider)`
+export const CustomSlider = styled(Slider)`
   .slick-prev:before {
     font-size: 30px !important;
   }
@@ -26,7 +26,7 @@ export const customSlider = styled(Slider)`
   }
 `;
 
-export const img = styled.div`
+export const Img = styled.div`
   width: 100%;
   height: 720px;
   background-image: ${(props) =>
