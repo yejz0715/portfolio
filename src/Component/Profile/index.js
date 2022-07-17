@@ -4,7 +4,7 @@ const Profile = ({ handleShowStory }) => {
   return (
     <S.Container>
       <S.ProfileImg
-        src={"/assets/user_yeji.jpg"}
+        src={process.env.PUBLIC_URL + "/images/user_yeji.jpg"}
         alt="image"
         onClick={handleShowStory}
       />
@@ -18,7 +18,7 @@ const Profile = ({ handleShowStory }) => {
         </S.Wrapper>
         <S.Mail>
           <img
-            src="assets/gmail_icon.svg"
+            src={process.env.PUBLIC_URL + "/images/gmail_icon.png"}
             alt="gmail"
             width="22px"
             style={{ marginRight: "4px" }}

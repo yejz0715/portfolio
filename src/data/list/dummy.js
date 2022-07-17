@@ -12,13 +12,7 @@ export const projectList = [
     ],
     gitUrl: "https://github.com/yejz0715/portfolio",
     demoUrl: "",
-    images: [
-      "/assets/test.png",
-      "/assets/test2.png",
-      "/assets/test.png",
-      "/assets/test.png",
-      "/assets/test.png",
-    ],
+    images: [process.env.PUBLIC_URL + "/images/test.png"],
     tag: ["개인 포트폴리오", "yejzgram", "toyProject", "프론트개발자"],
   },
   {
@@ -35,7 +29,7 @@ export const projectList = [
     ],
     gitUrl: "https://github.com/yejz0715/react-shopping",
     demoUrl: "",
-    images: ["/assets/test.png"],
+    images: [process.env.PUBLIC_URL + "/images/test.png"],
     tag: ["개인프로젝트", "toyProject", "첫_리액트_도전!", "리액트_커스텀"],
   },
   {
@@ -53,10 +47,10 @@ export const projectList = [
     gitUrl: "https://github.com/yejz0715/-psychological-test",
     demoUrl: "https://twelvelove-type.netlify.app/",
     images: [
-      "/assets/pj_img_pt_1.png",
-      "/assets/pj_img_pt_2.png",
-      "/assets/pj_img_pt_3.png",
-      "/assets/pj_img_pt_4.png",
+      process.env.PUBLIC_URL + "/images/pj_img_pt_1.png",
+      process.env.PUBLIC_URL + "/images/pj_img_pt_2.png",
+      process.env.PUBLIC_URL + "/images/pj_img_pt_3.png",
+      process.env.PUBLIC_URL + "/images/pj_img_pt_4.png",
     ],
     tag: ["개인프로젝트", "toyProject", "심리테스트", "인프런_판다코딩"],
   },
@@ -73,7 +67,7 @@ export const projectList = [
     ],
     gitUrl: "",
     demoUrl: "",
-    images: ["/assets/test2.png"],
+    images: [process.env.PUBLIC_URL + "/images/test2.png"],
     tag: ["팀프로젝트"],
   },
   {
@@ -89,7 +83,7 @@ export const projectList = [
     ],
     gitUrl: "",
     demoUrl: "",
-    images: ["/assets/test2.png"],
+    images: [process.env.PUBLIC_URL + "/images/test2.png"],
     tag: ["팀프로젝트", "mvc패턴", "버거킹", "두번째플젝"],
   },
 ];
@@ -97,29 +91,29 @@ export const projectList = [
 export const storyList = [
   {
     id: 1,
-    src: "/assets/react_icon.png",
+    src: process.env.PUBLIC_URL + "/images/react_icon.png",
     name: "REACT",
   },
   {
     id: 2,
-    src: "/assets/js_icon.png",
+    src: process.env.PUBLIC_URL + "/images/js_icon.png",
     name: "JAVASCRIPT",
   },
   {
     id: 3,
-    src: "/assets/html_icon.png",
+    src: process.env.PUBLIC_URL + "/images/html_icon.png",
     name: "HTML",
   },
   {
     id: 4,
-    src: "/assets/java_icon.png",
+    src: process.env.PUBLIC_URL + "/images/java_icon.png",
     name: "JAVA",
   },
 ];
 export const myStoryImgList = [
-  { id: 1, src: "/assets/story-img1.png" },
-  { id: 2, src: "/assets/java_icon.png" },
-  { id: 3, src: "/assets/html_icon.png" },
-  { id: 4, src: "/assets/react_icon.png" },
-  { id: 5, src: "/assets/test2.png" },
+  { id: 1, src: process.env.PUBLIC_URL + "/images/story-img1.png" },
+  { id: 2, src: process.env.PUBLIC_URL + "/images/java_icon.png" },
+  { id: 3, src: process.env.PUBLIC_URL + "/images/html_icon.png" },
+  { id: 4, src: process.env.PUBLIC_URL + "/images/react_icon.png" },
+  { id: 5, src: process.env.PUBLIC_URL + "/images/test2.png" },
 ];

@@ -6,7 +6,10 @@ import { BiPencil } from "react-icons/bi";
 const Header = ({ handleOnChange, handleOnKeyEnter }) => {
   return (
     <S.headerContainer>
-      <S.headerLogo src={"/images/header_logo.png"} alt="logo" />
+      <S.headerLogo
+        src={process.env.PUBLIC_URL + "/images/header_logo.png"}
+        alt="logo"
+      />
       <S.searchInput
         type="text"
         onChange={handleOnChange}

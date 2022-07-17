@@ -14,7 +14,7 @@ const PopContents = ({
   return (
     <S.container>
       <S.box>
-        <S.UserImg path="assets/user_yeji.jpg" />
+        <S.UserImg path={process.env.PUBLIC_URL + "/images/user_yeji.jpg"} />
         yejz0715
       </S.box>
       <S.Wrapper>
@@ -49,26 +49,6 @@ const PopContents = ({
 
         <S.DevTime>{period}</S.DevTime>
       </S.Wrapper>
-      {/* <S.wrapper></S.wrapper>
-        <S.text>{id} 번</S.text>
-        <S.text>포트폴리오 이름: {name}</S.text>
-        <S.text>기간: {period}</S.text>
-        <S.text>한줄 소개: {intro}</S.text>
-        <S.text>skill: {skill}</S.text>
-        <S.text>담당업무</S.text>
-        {responsibilities.map((item) => (
-          <S.text key={item}>{item}</S.text>
-        ))}
-        <a href={gitUrl} target="_blank" rel="noreferrer">
-          <S.text>git: {gitUrl}</S.text>
-        </a>
-        <a href={demoUrl} target="/blank" rel="noreferrer">
-          <S.text>{demoUrl}</S.text>
-        </a>
-        {tag.map((item) => (
-          <S.tag key={item}># {item}</S.tag>
-        ))}
-      </S.wrapper> */}
     </S.container>
   );
 };

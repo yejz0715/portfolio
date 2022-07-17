@@ -19,7 +19,7 @@ const StorySlider = ({ myStoryImgList, setShowStory }) => {
           <S.Img key={item.id} imgPath={item.src} />
         ))}
       </S.CustomSlider>
-      <S.logoIcon src="./assets/log_imgrm.png" />
+      <S.logoIcon src={process.env.PUBLIC_URL + "/images/log_imgrm.png"} />
       <S.deleteButton onClick={() => setShowStory(false)} />
     </S.container>
   );
