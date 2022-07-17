@@ -4,7 +4,7 @@ import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 const StorySlider = ({ myStoryImgList, setShowStory }) => {
   const settings = {
-    dots: true,
+    dots: false,
     fade: true,
     infinite: false,
     speed: 500,
