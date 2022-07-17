@@ -18,13 +18,13 @@ export const storyList = styled.div`
 export const projectText = styled.div`
   height: 44px;
   width: 100px;
-  border-top: 1px solid #262626;
-  margin-top: 40px;
+  margin-top: 12px;
   text-align: center;
   padding: 15px 0;
   font-weight: 500;
   line-height: 19px;
-  font-size: 16px;
+  font-size: 14px;
+  color: #646464;
 `;
 export const projectContainer = styled.div`
   display: grid;
@@ -36,17 +36,12 @@ export const projectContainer = styled.div`
   background-color: transparent;
 `;
 export const background = styled.div`
-  /* z-index: 1000;
-  position: relative;
-  display: flex;
-  justify-content: center; */
+  display: ${(props) => (props.isShowProject ? "flex" : "grid")};
+  align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: ${(props) =>
-    props.type === "pop" ? "rgba(0, 0, 0, 0.6)" : "#f5f5f5"};
-
-  /* background-color: ${(props) =>
-    props.type === "story" ? "#575757" : "rgba(0, 0, 0, 0.8)"}; */
+    props.isShowProject ? "#575757" : "transparent"};
 `;
 export const deleteButton = styled(FiXSquare)`
   position: absolute;
