@@ -3,8 +3,9 @@ import Slider from "react-slick";
 
 export const Container = styled.div`
   width: 800px;
-  height: 800px;
-  background-color: transparent;
+  height: 90%;
+  min-height: 720px;
+  background-color: black;
 `;
 export const customSlider = styled(Slider)`
   .slick-prev:before {
@@ -16,6 +17,9 @@ export const customSlider = styled(Slider)`
   .slick-prev {
     left: -50px;
   }
+  .slick-next {
+    right: -460px;
+  }
 
   .slick-prev.slick-disabled:before {
     opacity: 0.6;
@@ -24,7 +28,7 @@ export const customSlider = styled(Slider)`
 
 export const img = styled.div`
   width: 100%;
-  height: 800px;
+  height: 720px;
   background-image: ${(props) =>
     props.imgPath ? `url(${props.imgPath})` : "none"};
 
