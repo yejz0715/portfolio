@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FiMail, FiSend } from "react-icons/fi";
+import { FiSend } from "react-icons/fi";
 
 export const Container = styled.div`
   height: 176px;
@@ -34,6 +34,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Id = styled.span`
+  font-family: "GangwonEdu_OTFBoldA";
   font-size: 28px;
   line-height: 33px;
   margin-bottom: 24px;
@@ -44,14 +45,15 @@ export const MailButton = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9;
-  border: 1px solid #efefef;
+  background-color: #fafafa;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   margin-left: 32px;
   font-size: 14px;
   cursor: pointer;
 `;
-export const sendIcon = styled(FiSend)`
+export const SendIcon = styled(FiSend)`
   size: 20px;
 `;
 
