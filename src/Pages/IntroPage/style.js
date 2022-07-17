@@ -8,6 +8,7 @@ export const Container = styled.div`
   height: 100vh;
   background: #fff;
   animation: ${(props) => (props.isClicked ? "fadeOut 1s" : "none")};
+  cursor: pointer;
 
   @keyframes fadeOut {
     0% {
