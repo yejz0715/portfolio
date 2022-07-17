@@ -3,11 +3,14 @@ import * as S from "./style.js";
 const Profile = ({ handleShowStory }) => {
   return (
     <S.Container>
-      <S.ProfileImg
-        src={process.env.PUBLIC_URL + "/images/user_yeji.jpg"}
-        alt="image"
-        onClick={handleShowStory}
-      />
+      <S.ProfileImgWrapper>
+        <S.ProfileImgLabel>클릭 클릭</S.ProfileImgLabel>
+        <S.ProfileImg
+          src={process.env.PUBLIC_URL + "/images/user_yeji.jpg"}
+          alt="image"
+          onClick={handleShowStory}
+        />
+      </S.ProfileImgWrapper>
       <S.ProfileText>
         <S.Wrapper>
           <S.Id>yejz0715</S.Id>
