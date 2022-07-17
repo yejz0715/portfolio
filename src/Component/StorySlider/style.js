@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import Slider from "react-slick";
-import { FiXSquare } from "react-icons/fi";
+import { FiX } from "react-icons/fi";
 
 export const container = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -14,6 +15,7 @@ export const container = styled.div`
 export const CustomSlider = styled(Slider)`
   .slick-list {
     width: 523px;
+    height: 90%;
     border-radius: 16px;
     margin: 25px 10px;
   }
@@ -41,10 +43,10 @@ export const Img = styled.div`
     props.imgPath ? `url(${props.imgPath})` : "none"};
 `;
 
-export const deleteButton = styled(FiXSquare)`
+export const deleteButton = styled(FiX)`
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 3px;
+  right: 3px;
   width: 36px;
   height: 36px;
   color: #d5d5d5;

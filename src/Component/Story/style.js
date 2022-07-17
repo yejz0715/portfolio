@@ -13,9 +13,8 @@ export const imgWrapper = styled.div`
   width: 78px;
   height: 78px;
   background: #fff;
-  border: 1px solid #f5f5f5;
+  border: 1px solid #d9d9d9;
   border-radius: 50%;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin-bottom: 15px;
 `;
 export const icon = styled.img`
@@ -28,5 +27,5 @@ export const icon = styled.img`
 
 export const text = styled.label`
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
 `;
