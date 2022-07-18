@@ -17,11 +17,11 @@ const PopContents = ({
         yejz0715
       </S.UserBox>
       <S.Wrapper>
-        <S.SubTitle>💡 프로젝트명</S.SubTitle>
+        <S.SubTitle>💻 프로젝트명</S.SubTitle>
         <S.Description>{name}</S.Description>
-        <S.SubTitle>🔥 소개</S.SubTitle>
+        <S.SubTitle> 🤷‍♂️ 소개</S.SubTitle>
         <S.Description>{intro}</S.Description>
-        <S.SubTitle>🔥 개발 스택</S.SubTitle>
+        <S.SubTitle>📌 개발 스택</S.SubTitle>
         <S.Description>{skill}</S.Description>
         <S.SubTitle>🔥 담당 업무</S.SubTitle>
         {responsibilities.map((item, index) => (
@@ -39,13 +39,11 @@ const PopContents = ({
             <S.Description type="link">@demoLink</S.Description>
           </a>
         )}
-
         <S.TagBox>
           {tag.map((item, index) => (
             <S.Tag key={index}># {item}</S.Tag>
           ))}
         </S.TagBox>
-
         <S.DevTime>{period}</S.DevTime>
       </S.Wrapper>
     </S.Container>
