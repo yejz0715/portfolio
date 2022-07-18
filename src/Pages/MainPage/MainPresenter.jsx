@@ -76,7 +76,7 @@ const MainPresenter = ({
                     />
                   ))
                 ) : (
-                  <h1>조회된 데이터가 없습니다!!</h1>
+                  <S.Message>조회된 데이터가 없습니다!!</S.Message>
                 )}
               </S.ProjectContainer>
             </S.Wrapper>

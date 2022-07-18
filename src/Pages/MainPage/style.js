@@ -23,7 +23,7 @@ export const ProjectText = styled.div`
   padding: 15px 0;
   font-weight: 500;
   line-height: 19px;
-  font-size: 14px;
+  font-size: 17px;
   color: #646464;
 `;
 export const ProjectContainer = styled.div`
@@ -59,4 +59,10 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+`;
+export const Message = styled.p`
+  width: 100%;
+  font-size: 25px;
+  color: red;
+  font-family: "GangwonEdu_OTFBoldA";
 `;

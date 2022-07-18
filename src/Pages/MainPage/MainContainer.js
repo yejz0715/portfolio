@@ -34,7 +34,8 @@ const MainContainer = () => {
       } else {
         setSearchedProjectList(
           projectList.filter(
-            (project) => project.skill.indexOf(searchValue) !== -1
+            (project) =>
+              project.skill.indexOf(searchValue.toLocaleLowerCase()) !== -1
           )
         );
       }
