@@ -45,6 +45,7 @@ export const HeaderIconLabel = styled.label`
   color: #fff;
   font-weight: bold;
   line-height: 18px;
+  padding: 4px;
 `;
 
 export const HeaderIcon = styled.li`

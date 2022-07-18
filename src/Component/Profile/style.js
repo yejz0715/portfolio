@@ -20,6 +20,7 @@ export const ProfileImgLabel = styled.label`
   border-radius: 2px;
   font-weight: bold;
   color: #fff;
+  padding: 2px;
 `;
 export const ProfileImgWrapper = styled.div`
   position: relative;
