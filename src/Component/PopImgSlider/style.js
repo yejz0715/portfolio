@@ -6,6 +6,8 @@ export const Container = styled.div`
   height: 90%;
   min-height: 720px;
   background-color: black;
+  display: flex;
+  align-items: center;
 `;
 export const CustomSlider = styled(Slider)`
   .slick-prev:before {
