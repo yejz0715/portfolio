@@ -14,14 +14,10 @@ export const Container = styled.div`
 export const CustomSlider = styled(Slider)`
   width: 100%;
   height: 100%;
-  .slick-slider {
-    position: static !important;
-  }
-
+  position: static;
   .slick-prev:before {
     font-size: 30px !important;
-    z-index: 1000 !important;
-  }
+s  }
   .slick-next:before {
     font-size: 30px !important;
   }
