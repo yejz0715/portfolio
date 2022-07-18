@@ -22,7 +22,9 @@ const PopContents = ({
         <S.SubTitle> 🙋‍♂️ 소개</S.SubTitle>
         <S.Description>{intro}</S.Description>
         <S.SubTitle>📌 개발 스택</S.SubTitle>
-        <S.Description>{skill}</S.Description>
+        {skill.map((item, index) => (
+          <S.Description key={index}>. {item}</S.Description>
+        ))}
         <S.SubTitle>🔥 담당 업무</S.SubTitle>
         {responsibilities.map((item, index) => (
           <S.Description key={index}>
