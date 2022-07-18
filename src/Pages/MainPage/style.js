@@ -36,6 +36,7 @@ export const ProjectContainer = styled.div`
   background-color: transparent;
 `;
 export const Background = styled.div`
+  position: relative;
   display: ${(props) => (props.isShowProject ? "flex" : "grid")};
   justify-content: center;
 

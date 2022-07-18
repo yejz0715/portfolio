@@ -14,6 +14,9 @@ export const Container = styled.div`
 export const CustomSlider = styled(Slider)`
   width: 100%;
   height: 100%;
+  .slick-slider {
+    position: static !important;
+  }
 
   .slick-prev:before {
     font-size: 30px !important;
@@ -23,10 +26,14 @@ export const CustomSlider = styled(Slider)`
     font-size: 30px !important;
   }
   .slick-prev {
-    left: -50px;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
   }
   .slick-next {
-    right: -460px;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
   }
 
   .slick-prev.slick-disabled:before {

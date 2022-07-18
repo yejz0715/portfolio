@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { FiX } from "react-icons/fi";
 export const Container = styled.div`
+  position: static;
   display: flex;
   justify-content: center;
   align-items: center;
