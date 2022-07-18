@@ -12,7 +12,12 @@ export const projectList = [
     ],
     gitUrl: "https://github.com/yejz0715/portfolio",
     demoUrl: "",
-    images: [process.env.PUBLIC_URL + "/images/test.png"],
+    images: [
+      process.env.PUBLIC_URL + "/images/pj_img_ig_1.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_ig_2.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_ig_3.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_ig_4.jpg",
+    ],
     tag: ["개인 포트폴리오", "yejzgram", "toyProject", "프론트개발자"],
   },
   {
@@ -29,7 +34,12 @@ export const projectList = [
     ],
     gitUrl: "https://github.com/yejz0715/react-shopping",
     demoUrl: "",
-    images: [process.env.PUBLIC_URL + "/images/test.png"],
+    images: [
+      process.env.PUBLIC_URL + "/images/pj_img_sl_1.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_sl_2.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_sl_3.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_sl_4.jpg",
+    ],
     tag: ["개인프로젝트", "toyProject", "첫_리액트_도전!", "리액트_커스텀"],
   },
   {
@@ -67,7 +77,12 @@ export const projectList = [
     ],
     gitUrl: "",
     demoUrl: "",
-    images: [process.env.PUBLIC_URL + "/images/test2.png"],
+    images: [
+      process.env.PUBLIC_URL + "/images/pj_img_bk1_1.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_bk1_2.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_bk1_3.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_bk1_4.jpg",
+    ],
     tag: ["팀프로젝트"],
   },
   {
@@ -83,7 +98,13 @@ export const projectList = [
     ],
     gitUrl: "",
     demoUrl: "",
-    images: [process.env.PUBLIC_URL + "/images/test2.png"],
+    images: [
+      process.env.PUBLIC_URL + "/images/pj_img_bk2_1.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_bk2_2.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_bk2_3.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_bk2_4.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_bk2_5.jpg",
+    ],
     tag: ["팀프로젝트", "mvc패턴", "버거킹", "두번째플젝"],
   },
 ];
@@ -111,9 +132,9 @@ export const storyList = [
   },
 ];
 export const myStoryImgList = [
-  { id: 1, src: process.env.PUBLIC_URL + "/images/story-img1.png" },
-  { id: 2, src: process.env.PUBLIC_URL + "/images/java_icon.png" },
-  { id: 3, src: process.env.PUBLIC_URL + "/images/html_icon.png" },
-  { id: 4, src: process.env.PUBLIC_URL + "/images/react_icon.png" },
-  { id: 5, src: process.env.PUBLIC_URL + "/images/test2.png" },
+  { id: 1, src: process.env.PUBLIC_URL + "/images/story_img_1.jpg" },
+  { id: 2, src: process.env.PUBLIC_URL + "/images/story_img_2.jpg" },
+  { id: 3, src: process.env.PUBLIC_URL + "/images/story_img_3.jpg" },
+  { id: 4, src: process.env.PUBLIC_URL + "/images/story_img_4.jpg" },
+  { id: 5, src: process.env.PUBLIC_URL + "/images/story_img_5.jpg" },
 ];
