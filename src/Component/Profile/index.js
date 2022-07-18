@@ -26,6 +26,7 @@ const Profile = ({ handleShowStory }) => {
           />
           yejz0715@gmail.com
         </S.Mail>
+        <S.Name>이예지</S.Name>
         <S.Contents>안녕하세요! 프론트엔드 개발자 이예지입니다!</S.Contents>
       </S.ProfileText>
     </S.Container>

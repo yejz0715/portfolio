@@ -58,7 +58,7 @@ export const Wrapper = styled.div`
 
 export const Id = styled.span`
   font-family: "GangwonEdu_OTFBoldA";
-  font-size: 28px;
+  font-size: 30px;
   line-height: 33px;
   margin-bottom: 24px;
 `;
@@ -83,7 +83,7 @@ export const SendIcon = styled(FiSend)`
 export const Mail = styled.div`
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 20px;
   margin-bottom: 19px;
 `;
@@ -93,7 +93,7 @@ export const MailImg = styled.img`
   margin-right: 5px;
 `;
 export const Name = styled.label`
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 500;
   line-height: 23.44px;
   margin-bottom: 4px;

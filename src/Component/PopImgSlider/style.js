@@ -3,7 +3,7 @@ import Slider from "react-slick";
 
 export const Container = styled.div`
   //position: relative;
-  width: 800px;
+  width: 720px;
   //height: 90%;
   min-height: 720px;
   background-color: black;

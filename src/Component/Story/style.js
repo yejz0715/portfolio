@@ -26,5 +26,5 @@ export const Icon = styled.img`
 
 export const Text = styled.label`
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
 `;

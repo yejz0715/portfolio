@@ -23,7 +23,9 @@ export const UserBox = styled.div`
   align-items: center;
   height: 54px;
   border-bottom: 1px solid #d9d9d9;
-  font-size: 16px;
+  font-size: 23px;
+  font-family: "GangwonEdu_OTFBoldA";
+  line-height: 54px;
   padding-left: 20px;
   cursor: default;
 `;
@@ -32,26 +34,21 @@ export const Wrapper = styled.div`
   flex-direction: column;
   margin: 0px 20px;
 `;
-export const Text = styled.p`
-  padding: 5px 20px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 23px;
-`;
+
 export const TagBox = styled.div`
   position: absolute;
   bottom: 100px;
   left: 20px;
 `;
 export const Tag = styled.p`
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 23px;
   color: rgba(5, 59, 110, 1);
 `;
 
 export const SubTitle = styled.label`
-  font-size: 18px;
+  font-size: 19px;
   margin-top: 16px;
   margin-bottom: 8px;
 `;
@@ -59,15 +56,17 @@ export const Description = styled.label`
   color: ${(props) =>
     props.type === "link" ? "rgba(5, 59, 110, 1);" : "#646464"};
   cursor: ${(props) => (props.type === "link" ? "pointer" : "default")};
-  font-size: 16px;
-  margin-bottom: 4px;
-  margin-top: ${(props) => (props.type === "link" ? "8px" : "none")};
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+
+  margin-top: ${(props) => (props.type === "link" ? "15px" : "none")};
 `;
 
 export const DevTime = styled.label`
   position: absolute;
   bottom: 20px;
   left: 20px;
-  font-size: 14px;
+  font-size: 16px;
   color: #c4c4c4;
 `;
