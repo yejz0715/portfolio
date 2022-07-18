@@ -16,19 +16,21 @@ export const CustomSlider = styled(Slider)`
   height: 100%;
   position: static;
   .slick-prev:before {
-    font-size: 30px !important;
-s  }
+    font-size: 40px !important;
+  }
   .slick-next:before {
-    font-size: 30px !important;
+    font-size: 40px !important;
   }
   .slick-prev {
+    position: fixed;
     top: 50%;
-    left: 100px;
+    left: 5%;
     transform: translateY(-50%);
   }
   .slick-next {
+    position: fixed;
     top: 50%;
-    right: 100px;
+    right: 5%;
     transform: translateY(-50%);
   }
 
