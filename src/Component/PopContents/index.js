@@ -17,9 +17,9 @@ const PopContents = ({
         yejz0715
       </S.UserBox>
       <S.Wrapper>
-        <S.SubTitle>💻 프로젝트명</S.SubTitle>
+        <S.SubTitle> 💻 프로젝트명</S.SubTitle>
         <S.Description>{name}</S.Description>
-        <S.SubTitle> 🤷‍♂️ 소개</S.SubTitle>
+        <S.SubTitle> 🙋‍♂️ 소개</S.SubTitle>
         <S.Description>{intro}</S.Description>
         <S.SubTitle>📌 개발 스택</S.SubTitle>
         <S.Description>{skill}</S.Description>

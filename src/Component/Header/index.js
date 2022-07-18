@@ -12,7 +12,7 @@ const Header = ({ handleOnChange, handleOnKeyEnter }) => {
       <S.SearchInput
         type="text"
         onChange={handleOnChange}
-        placeholder="ex) react enter !"
+        placeholder="ex) react + Enter!"
         onKeyPress={handleOnKeyEnter}
       />
       <S.HeaderIconWrapper>
