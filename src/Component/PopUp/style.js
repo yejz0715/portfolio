@@ -5,10 +5,11 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
+  //width: 100%;
+  height: 90%;
   min-height: 720px;
   max-height: 891px;
+  background-color: black;
 `;
 
 export const DeleteButton = styled(FiX)`

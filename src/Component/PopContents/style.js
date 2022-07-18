@@ -4,7 +4,7 @@ export const Container = styled.div`
   background-color: #ffffff;
   width: 421px;
   box-sizing: border-box;
-  height: 90%;
+  height: 100%;
   min-height: 720px;
 `;
 

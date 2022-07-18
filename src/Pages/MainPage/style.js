@@ -37,6 +37,8 @@ export const ProjectContainer = styled.div`
 `;
 export const Background = styled.div`
   display: ${(props) => (props.isShowProject ? "flex" : "grid")};
+  justify-content: center;
+
   align-items: center;
   width: 100%;
   height: 100vh;
