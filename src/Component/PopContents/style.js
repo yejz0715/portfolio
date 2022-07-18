@@ -61,6 +61,7 @@ export const Description = styled.label`
   cursor: ${(props) => (props.type === "link" ? "pointer" : "default")};
   font-size: 16px;
   margin-bottom: 4px;
+  margin-top: ${(props) => (props.type === "link" ? "8px" : "none")};
 `;
 
 export const DevTime = styled.label`
