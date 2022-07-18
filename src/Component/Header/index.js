@@ -12,7 +12,7 @@ const Header = ({ handleOnChange, handleOnKeyEnter }) => {
       <S.SearchInput
         type="text"
         onChange={handleOnChange}
-        placeholder="개발 스택을 입력하고 enter !"
+        placeholder="ex) react enter !"
         onKeyPress={handleOnKeyEnter}
       />
       <S.HeaderIconWrapper>
