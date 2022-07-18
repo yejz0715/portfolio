@@ -6,10 +6,12 @@ const StorySlider = ({ myStoryImgList, setShowStory }) => {
   const settings = {
     dots: false,
     fade: true,
-    infinite: false,
-    speed: 500,
+    infinite: true,
+    speed: 1000,
     sliderToShow: 1,
     sliderToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
   };
 
   return (
