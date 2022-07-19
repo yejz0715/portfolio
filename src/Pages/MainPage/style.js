@@ -21,9 +21,8 @@ export const ProjectText = styled.div`
   margin-top: 12px;
   text-align: center;
   padding: 15px 0;
-  font-weight: 500;
   line-height: 19px;
-  font-size: 17px;
+  font-size: 19px;
   color: #646464;
 `;
 export const ProjectContainer = styled.div`
@@ -61,8 +60,11 @@ export const Wrapper = styled.div`
   align-items: center;
 `;
 export const Message = styled.p`
-  width: 100%;
-  font-size: 25px;
-  color: red;
+  width: 931px;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: #333;
+  margin-top: 50px;
   font-family: "GangwonEdu_OTFBoldA";
 `;
