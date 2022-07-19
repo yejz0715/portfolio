@@ -28,8 +28,10 @@ const Profile = ({ handleShowStory }) => {
         </S.Mail>
         <S.Name>이예지</S.Name>
         <S.Contents>
-          안녕하세요! react를 더 잘하고 싶은 <br/>예비 개발자 입니다.
+          안녕하세요! 오랫동안 개발을 하고싶어서 <br />
+          열심히 react 공부중인 예비 개발자 입니다. <br />
         </S.Contents>
+        <S.Tag>#성실 #노력형 #될때까지 #항상 # 최선을 다하는 중</S.Tag>
       </S.ProfileText>
     </S.Container>
   );

@@ -12,15 +12,15 @@ export const Container = styled.div`
 `;
 export const ProfileImgLabel = styled.label`
   position: absolute;
-  top: -20px;
+  top: -25px;
   display: none;
   height: 20px;
-  line-height: 23px;
+  line-height: 24px;
   background-color: #f5c125;
   border-radius: 2px;
   font-weight: bold;
   color: #fff;
-  padding: 2px;
+  padding: 3px 3px 2px 3px;
 `;
 export const ProfileImgWrapper = styled.div`
   position: relative;
@@ -64,7 +64,7 @@ export const Id = styled.span`
 `;
 export const MailButton = styled.a`
   width: 120px;
-  height: 32px;
+  height: 27px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,6 +74,7 @@ export const MailButton = styled.a`
   border-radius: 3px;
   margin-left: 32px;
   font-size: 14px;
+  padding-top: 5px;
   cursor: pointer;
 `;
 export const SendIcon = styled(FiSend)`
@@ -94,14 +95,17 @@ export const MailImg = styled.img`
 `;
 export const Name = styled.label`
   font-size: 21px;
-  font-weight: 500;
   line-height: 23.44px;
   margin-bottom: 4px;
 `;
 export const Contents = styled.label`
   width: 100%;
   color: #646464;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 23.44px;
+  font-size: 19px;
+  line-height: 22px;
+  margin-bottom: 8px;
+`;
+export const Tag = styled.label`
+  color: rgba(5, 59, 110, 1);
+  font-size: 15px;
 `;
