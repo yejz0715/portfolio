@@ -28,6 +28,7 @@ body{
   height: 100vh;
   color: #333;
   font-family: 'GangwonEdu_OTFLightA';
+  font-weight: 600;
   background-color:#fafafa;
 }
 `;

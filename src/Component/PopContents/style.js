@@ -42,7 +42,7 @@ export const TagBox = styled.div`
 `;
 export const Tag = styled.p`
   font-size: 18px;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 23px;
   color: rgba(5, 59, 110, 1);
 `;
@@ -68,5 +68,5 @@ export const DevTime = styled.label`
   bottom: 20px;
   left: 20px;
   font-size: 16px;
-  color: #c4c4c4;
+  color: gray;
 `;
