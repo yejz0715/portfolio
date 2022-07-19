@@ -10,7 +10,7 @@ export const HeaderContainer = styled.div`
 `;
 export const HeaderLogo = styled.img`
   width: 115px;
-  cursor: pointer;
+  cursor: default;
 `;
 
 export const SearchInput = styled.input`
@@ -45,7 +45,7 @@ export const HeaderIconLabel = styled.label`
   color: #fff;
   font-weight: bold;
   line-height: 18px;
-  padding: 4px;
+  padding: 3px 4px 0px 4px;
 `;
 
 export const HeaderIcon = styled.li`

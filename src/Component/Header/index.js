@@ -17,7 +17,14 @@ const Header = ({ handleOnChange, handleOnKeyEnter }) => {
       />
       <S.HeaderIconWrapper>
         <S.HeaderIcon>
-          <FiHome size="24px" cursor="pointer" />
+          <FiHome
+            size="24px"
+            cursor="pointer"
+            onClick={() => {
+              window.location.reload();
+            }}
+          />
+
           <S.HeaderIconLabel style={{ backgroundColor: "#7C39AE" }}>
             home
           </S.HeaderIconLabel>
