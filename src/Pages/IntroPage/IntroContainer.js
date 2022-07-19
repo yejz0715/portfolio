@@ -1,12 +1,13 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import IntroPresenter from "./IntroPresenter";
-const IntroContainer = ({ setFadeOut }) => {
+const IntroContainer = () => {
   const [isClicked, setClick] = useState(false);
-
+  const navigate = useNavigate();
   const handleOnClickPage = () => {
     setClick(true);
     setTimeout(function () {
-      setFadeOut(true);
+      navigate("/");
     }, 900);
   };
   return (
