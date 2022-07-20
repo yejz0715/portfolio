@@ -57,6 +57,7 @@ export const Description = styled.label`
     props.type === "link" ? "rgba(5, 59, 110, 1);" : "#646464"};
   cursor: ${(props) => (props.type === "link" ? "pointer" : "default")};
   font-size: 18px;
+  line-height: 23px;
   margin-bottom: 5px;
   display: block;
 

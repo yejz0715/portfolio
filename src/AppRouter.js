@@ -4,13 +4,11 @@ import IntroContainer from "./Pages/IntroPage";
 import MainContainer from "./Pages/MainPage";
 const AppRouter = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyle />
       <Routes>
-        <>
-          <Route path="/portfolio" element={<IntroContainer />} />
-          <Route path="/" element={<MainContainer />} />
-        </>
+        <Route exact path="/" element={<IntroContainer />} />
+        <Route path="/yejzgram" element={<MainContainer />} />
       </Routes>
     </Router>
   );
