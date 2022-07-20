@@ -1,16 +1,16 @@
 export const projectList = [
   {
     id: 1,
-    name: "인스타그램 UI를 활용한 개인 포트폴리오 사이트",
+    name: "인스타그램 UI를 활용한 개인 포트폴리오 웹 사이트",
     period: "2021.07.11 ~ 2021.07.20",
-    intro:
-      "인스타그램 스토리와 피드 기반으로, Figma를 사용해서 UI/UX 디자인과 react를 복습 할 수 있었던 첫 포트폴리오 사이트 입니다.",
+    intro: "1인 개발 프로젝트로, React 기반의 웹 서비스",
     skill: ["react", "javascript", "styled-components"],
     responsibilities: [
-      "styled-components를 활용한 UI개발",
-      "react-slick 라이브러리를 활용하여 프로젝트 이미지carousel 구현",
-      "태그 기반의 skill 데이터 검색 기능 구현",
-      "react-router-dom 기반의 router 구현 및 페이지 처리 ",
+      "styled-components를 통한 UI개발",
+      "react-slick 라이브러리를 활용하여 팝업 carousel 및 스토리 carousel 구현",
+      "메인 페이지 내에 개발 스택 검색 기능 구현",
+      "react-router-dom 기반의 router 구현 및 페이징 처리",
+      "Github와 gh-pages를 통한 웹 서비스 배포",
     ],
     gitUrl: "https://github.com/yejz0715/portfolio",
     demoUrl: "",
@@ -23,21 +23,20 @@ export const projectList = [
     tag: [
       "개인_포트폴리오",
       "스타일_컴포넌트_사용",
-      "리액트_복습용",
+      "리액트_활용",
       "복잡했던_props",
       "useState()_완전_이해",
     ],
   },
   {
     id: 2,
-    name: "react 학습용_토이 프로젝트",
+    name: "리액트 스터디용 토이 프로젝트",
     period: "2021.06.14 ~ 2021.07.22",
-    intro:
-      "리액트를 학습하며 문법과 react-hooks를 익히기 위해 제작한 토이 프로젝트입니다.   ",
+    intro: "리액트 기본 문법과 구조 이해를 위한 토이 프로젝트",
     skill: ["react", "javascript", "scss"],
     responsibilities: [
-      "scss를 활용한 UI 구현",
-      "Container-Presenter 패턴을 사용하여 로직과 UI 분리",
+      "scss를 활용한 UI 구현 및 커스텀 작업 진행",
+      "서비스 내에 페이지에 Container-Presenter 패턴 적용하여 로직과 UI분리 처리",
       "react-router-dom 기반의 router 구현 및 페이지 처리 ",
       "custom select 및 checkbox 제작 및 구현",
     ],
@@ -47,13 +46,7 @@ export const projectList = [
       process.env.PUBLIC_URL + "/images/pj_img_sl_1.jpg",
       process.env.PUBLIC_URL + "/images/pj_img_sl_2.jpg",
     ],
-    tag: [
-      "개인프로젝트",
-      "toyProject",
-      "리액트_입문용",
-      "리액트_커스텀",
-      "리액트_훅스",
-    ],
+    tag: ["개인프로젝트", "toyProject", "리액트_입문용", "리액트_커스텀"],
   },
   {
     id: 3,
@@ -87,10 +80,9 @@ export const projectList = [
   },
   {
     id: 4,
-    name: "버거킹 홈페이지 클론코딩",
+    name: "버거킹 클론코딩",
     period: "2021.11.17 ~ 2021.12.03",
-    intro:
-      "버거킹 홈페이지를 클론코딩하여 사용자, 관리자 페이지로 나눠서 기본적인 기능을 구현한(주문_주문내역확인/상품 및 추가,수정,삭제 등) 프로젝트입니다. ",
+    intro: "버거킹 웹 사이트 클론코딩을 통한 웹 개발 이해",
     skill: ["html", "jsp", "css", "javascript", "java", "oracle xe 11gr2"],
     responsibilities: [
       "header 애니메이션을 활용한 UI 및 기능 구현",
@@ -109,14 +101,14 @@ export const projectList = [
   },
   {
     id: 5,
-    name: "springBoot를 사용한 버거킹 클론코딩 ",
+    name: "Spring기반의 버거킹 클론코딩",
     period: "2021.01.03 ~ 2021.01.12",
     intro:
-      "기존의 버거킹 프로젝트에서 부족했던 기능적인 부분을(사용자, 관리자에 따라 비회원 주문 처리) 보완해서 mvc패턴을 적용한 프로젝트입니다.",
+      "기존의 버거킹 프로젝트에 MVC패턴을 적용하여 이용자별(사용자, 관리자) 로직처리를 적용한 웹 사이트",
     skill: ["html", "jsp", "css", "javascript", "java", "oracle xe 11gr2"],
     responsibilities: [
-      "사용자 이벤트 페이지 내의 mvc 패턴 적용한 로직 처리",
-      "관리자 이벤트 페이지 추가, 수정, 삭제 mvc패턴 적용해서 기능 구현",
+      "사용자 이벤트 페이지 조회 구현",
+      "관리자 이벤트 페이지 내 이벤트 등록, 수정, 삭제 로직 구현",
       "전체적인 서비스 UI 조정 및 구현",
     ],
     gitUrl: "https://github.com/yejz0715/BurgerKingCloneCoding_Spring.",
