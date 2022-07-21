@@ -6,7 +6,6 @@ export const Container = styled.div`
   box-sizing: border-box;
   height: 100%;
   min-height: 720px;
-  // max-height: 891px;
 `;
 
 export const UserImg = styled.div`
