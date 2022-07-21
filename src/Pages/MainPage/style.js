@@ -38,10 +38,9 @@ export const Background = styled.div`
   position: relative;
   display: ${(props) => (props.isShowProject ? "flex" : "grid")};
   justify-content: center;
-
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 105vh;
   background-color: ${(props) =>
     props.isShowProject ? "#575757" : "transparent"};
 `;
@@ -59,12 +58,17 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
 `;
-export const Message = styled.p`
+export const Message = styled.div`
   width: 931px;
+  margin-left: 330px;
   display: flex;
-  justify-content: center;
-  font-size: 35px;
-  color: #333;
-  margin-top: 50px;
+  flex-direction: column;
+  margin-top: 10px;
+`;
+
+export const MessageText = styled.p`
+  font-size: ${(props) => (props.type === "explanation" ? "17px" : "20px")};
+  color: ${(props) => (props.type === "explanation" ? "gray" : "#333")};
+  margin-top: ${(props) => (props.type === "explanation" ? "18px" : "0")};
   font-family: "GangwonEdu_OTFBoldA";
 `;

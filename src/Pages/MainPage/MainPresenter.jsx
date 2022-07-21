@@ -20,6 +20,7 @@ const MainPresenter = ({
   myStoryImgList,
   handleOnChange,
   handleOnKeyEnter,
+  searchValue,
 }) =>
   isShowStory ? (
     <StorySlider myStoryImgList={myStoryImgList} setShowStory={setShowStory} />
@@ -77,7 +78,12 @@ const MainPresenter = ({
                   ))
                 ) : (
                   <S.Message>
-                    조회된 데이터가 없습니다! 다시 확인해주세요
+                    <S.MessageText>
+                      '{searchValue}' 으로 검색된 프로젝트가 없습니다.
+                    </S.MessageText>
+                    <S.MessageText type="explanation">
+                      다시 검색해주세요! {"=>"} ex) javascript
+                    </S.MessageText>
                   </S.Message>
                 )}
               </S.ProjectContainer>

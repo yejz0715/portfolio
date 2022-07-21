@@ -57,6 +57,7 @@ const MainContainer = () => {
       myStoryImgList={myStoryImgList}
       handleOnChange={handleOnChange}
       handleOnKeyEnter={handleOnKeyEnter}
+      searchValue={searchValue}
     />
   );
 };
