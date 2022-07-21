@@ -2,9 +2,7 @@ import styled from "styled-components";
 import Slider from "react-slick";
 
 export const Container = styled.div`
-  //position: relative;
   width: 720px;
-  //height: 90%;
   min-height: 720px;
   background-color: black;
   display: flex;
@@ -42,7 +40,6 @@ export const CustomSlider = styled(Slider)`
 export const Img = styled.div`
   width: 100%;
   height: 720px;
-  //margin-top: 40px;
   background-image: ${(props) =>
     props.imgPath ? `url(${props.imgPath})` : "none"};
 
