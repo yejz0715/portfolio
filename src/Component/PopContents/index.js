@@ -20,7 +20,7 @@ const PopContents = ({
         <S.SubTitle> 💻 프로젝트명</S.SubTitle>
         <S.Description>{name}</S.Description>
         <S.SubTitle> 🙋‍♂️ 소개</S.SubTitle>
-        <S.Description>{intro}</S.Description>
+        <S.Description type="intro">{intro}</S.Description>
         <S.SubTitle>📌 개발 스택</S.SubTitle>
         {skill.map((item, index) => (
           <S.Description key={index}>. {item}</S.Description>
@@ -31,21 +31,22 @@ const PopContents = ({
             {index + 1}. {item}
           </S.Description>
         ))}
-        {gitUrl.length > 0 && (
-          <a href={gitUrl} target="_blank" rel="noreferrer">
-            <S.Description type="link">@githubLink</S.Description>
-          </a>
-        )}
-        {demoUrl.length > 0 && (
-          <a href={demoUrl} target="_blank" rel="noreferrer">
-            <S.Description type="link">@demoLink</S.Description>
-          </a>
-        )}
-        <S.TagBox>
-          {tag.map((item, index) => (
-            <S.Tag key={index}># {item}</S.Tag>
-          ))}
-        </S.TagBox>
+        <S.Link>
+          {gitUrl.length > 0 && (
+            <a href={gitUrl} target="_blank" rel="noreferrer">
+              <S.Description type="link">@githubLink</S.Description>
+            </a>
+          )}
+          {demoUrl.length > 0 && (
+            <a href={demoUrl} target="_blank" rel="noreferrer">
+              <S.Description type="link">@demoLink</S.Description>
+            </a>
+          )}
+        </S.Link>
+        {tag.map((item, index) => (
+          <S.Tag key={index}># {item}</S.Tag>
+        ))}
+
         <S.DevTime>{period}</S.DevTime>
       </S.Wrapper>
     </S.Container>

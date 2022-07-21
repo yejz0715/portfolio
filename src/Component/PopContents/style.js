@@ -6,6 +6,7 @@ export const Container = styled.div`
   box-sizing: border-box;
   height: 100%;
   min-height: 720px;
+  // max-height: 891px;
 `;
 
 export const UserImg = styled.div`
@@ -35,11 +36,6 @@ export const Wrapper = styled.div`
   margin: 0px 20px;
 `;
 
-export const TagBox = styled.div`
-  position: static;
-  bottom: 100px;
-  left: 20px;
-`;
 export const Tag = styled.p`
   font-size: 18px;
   font-weight: bold;
@@ -57,17 +53,18 @@ export const Description = styled.label`
     props.type === "link" ? "rgba(5, 59, 110, 1);" : "#646464"};
   cursor: ${(props) => (props.type === "link" ? "pointer" : "default")};
   font-size: 18px;
-  line-height: 23px;
+  line-height: 21px;
   margin-bottom: 5px;
   display: block;
-
-  margin-top: ${(props) => (props.type === "link" ? "15px" : "none")};
 `;
 
 export const DevTime = styled.label`
   position: absolute;
-  bottom: 20px;
+  bottom: 13px;
   left: 20px;
   font-size: 16px;
   color: gray;
+`;
+export const Link = styled.div`
+  margin: 10px 0;
 `;
