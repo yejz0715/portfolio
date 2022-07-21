@@ -36,7 +36,7 @@ export const Wrapper = styled.div`
 `;
 
 export const TagBox = styled.div`
-  position: absolute;
+  position: static;
   bottom: 100px;
   left: 20px;
 `;
