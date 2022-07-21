@@ -7,7 +7,7 @@ const IntroContainer = () => {
   const handleOnClickPage = () => {
     setClick(true);
     setTimeout(function () {
-      navigate("/yejzgram");
+      navigate("/yejz0715");
     }, 900);
   };
   return (
