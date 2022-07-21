@@ -30,13 +30,13 @@ export const projectList = [
   },
   {
     id: 2,
-    name: "리액트 스터디용 토이 프로젝트",
+    name: "React 스터디용 토이 프로젝트",
     period: "2021.06.14 ~ 2021.07.22",
-    intro: "리액트 기본 문법과 구조 이해를 위한 토이 프로젝트",
+    intro: "React 기본 문법과 구조 이해를 위한 토이 프로젝트",
     skill: ["react", "javascript", "scss"],
     responsibilities: [
       "scss를 활용한 UI 구현 및 커스텀 작업 진행",
-      "서비스 내에 페이지에 Container-Presenter 패턴 적용하여 로직과 UI분리 처리",
+      "서비스 내 페이지에 Container-Presenter 패턴 적용하여 로직과 UI분리 처리",
       "react-router-dom 기반의 router 구현 및 페이지 처리 ",
       "custom select 및 checkbox 제작 및 구현",
     ],
@@ -46,14 +46,14 @@ export const projectList = [
       process.env.PUBLIC_URL + "/images/pj_img_sl_1.jpg",
       process.env.PUBLIC_URL + "/images/pj_img_sl_2.jpg",
     ],
-    tag: ["개인프로젝트", "toyProject", "리액트_입문용", "리액트_커스텀"],
+    tag: ["개인프로젝트", "toyProject", "React_입문용", "React_커스텀"],
   },
   {
     id: 3,
     name: "MBTI 유형별 심리테스트 웹사이트",
     period: "2021.02.07 ~ 2021.03.01",
     intro:
-      "12개의 질문들로 심리테스트를 할 수 있는 웹 사이트로 레이아웃을 통해 하나의 페이지로 3개의 화면을 전환할 수 있게 제작하였고, 웹 사이트를 배포할 수 있었던 프로젝트입니다.",
+      "UI 부터 배포까지 웹사이트의 전체적인 흐름을 파악할 수 있었던 프로젝트",
     skill: ["html", "javascript", "css"],
     responsibilities: [
       "부트스트랩 사용한 UI 및 반응형 페이지 구현",
