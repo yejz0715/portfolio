@@ -40,7 +40,7 @@ export const Background = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 105vh;
+  height: 100vh;
   background-color: ${(props) =>
     props.isShowProject ? "#575757" : "transparent"};
 `;

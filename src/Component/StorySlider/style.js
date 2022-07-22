@@ -7,7 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   overflow: hidden;
   background-color: #575757;
 `;
