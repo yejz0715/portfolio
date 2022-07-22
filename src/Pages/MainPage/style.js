@@ -7,6 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 `;
 export const StoryList = styled.div`
   width: 931px;
@@ -33,6 +34,7 @@ export const ProjectContainer = styled.div`
   height: 613px;
   margin-top: 10px;
   background-color: transparent;
+  padding-bottom: 50px;
 `;
 export const Background = styled.div`
   position: relative;
