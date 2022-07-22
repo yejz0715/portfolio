@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import * as S from "./style.js";
 const IntroPresenter = ({ handleOnClickPage, isClicked }) => (
   <S.Container onClick={handleOnClickPage} isClicked={isClicked}>
