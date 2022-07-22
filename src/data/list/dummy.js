@@ -45,6 +45,7 @@ export const projectList = [
     images: [
       process.env.PUBLIC_URL + "/images/pj_img_sl_1.jpg",
       process.env.PUBLIC_URL + "/images/pj_img_sl_2.jpg",
+      process.env.PUBLIC_URL + "/images/pj_img_sl_3.jpg",
     ],
     tag: ["개인프로젝트", "toyProject", "React_입문용", "React_커스텀"],
   },
@@ -85,7 +86,7 @@ export const projectList = [
     intro: "버거킹 웹 사이트 클론코딩을 통한 웹 개발 이해",
     skill: ["html", "jsp", "css", "javascript", "java", "oracle xe 11gr2"],
     responsibilities: [
-      "header 애니메이션을 활용한 UI 및 기능 구현",
+      " 애니메이션을 활용하여 header UI 및 기능 구현",
       "사용자 이벤트 상태(진행중, 완료 등)에 따른 로직 처리",
       "전체적인 서비스 UI 조정 및 구현",
     ],
