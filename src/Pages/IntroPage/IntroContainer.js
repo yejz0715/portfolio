@@ -10,6 +10,7 @@ const IntroContainer = () => {
       navigate("/yejz0715");
     }, 900);
   };
+
   return (
     <IntroPresenter
       handleOnClickPage={handleOnClickPage}

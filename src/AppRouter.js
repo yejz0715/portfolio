@@ -1,8 +1,8 @@
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
-  Navigate,
+  // Navigate,
 } from "react-router-dom";
 import { GlobalStyle } from "./GlobalStyle";
 import NotFoundContainer from "./Pages/ErrorPage";
@@ -12,16 +12,17 @@ const AppRouter = () => {
   return (
     <Router>
       <GlobalStyle />
+      {/* basename={process.env.PUBLIC_URL} */}
       <Routes basename={process.env.PUBLIC_URL}>
-        <Route
+        {/* <Route
           exact
           path="/"
           element={<Navigate to="/intro" replace={true} />}
-        />
+        /> */}
 
-        <Route path="/intro" element={<IntroContainer />} />
+        <Route exact path="/" element={<IntroContainer />} />
         <Route path="/yejz0715" element={<MainContainer />} />
-        <Route path="*" element={<NotFoundContainer />} />
+        {/* <Route path="*" element={<NotFoundContainer />} /> */}
       </Routes>
     </Router>
   );
