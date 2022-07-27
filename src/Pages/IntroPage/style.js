@@ -27,12 +27,7 @@ export const ImgWrapper = styled.div`
   width: 252px;
   height: 252px;
   margin-bottom: 36px;
-  margin-left: 45px;
   border-radius: 50%;
   background-color: #fff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-`;
-export const Message = styled.p`
-  margin-top: 30px;
-  font-size: 20px;
 `;

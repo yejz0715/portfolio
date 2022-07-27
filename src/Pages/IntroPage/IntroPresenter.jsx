@@ -14,7 +14,6 @@ const IntroPresenter = ({ handleOnClickPage, isClicked }) => (
       alt="logo"
       width="352px"
     />
-    <S.Message>포트폴리오 사이트로 이동하려면 클릭해주세요!</S.Message>
   </S.Container>
 );
 
