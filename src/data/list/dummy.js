@@ -13,7 +13,7 @@ export const projectList = [
       "Github와 gh-pages를 통한 웹 서비스 배포",
     ],
     gitUrl: "https://github.com/yejz0715/portfolio",
-    demoUrl: "",
+    demoUrl: "https://yejz0715.github.io/portfolio/",
     images: [
       process.env.PUBLIC_URL + "/images/pj_img_ig_1.jpg",
       process.env.PUBLIC_URL + "/images/pj_img_ig_2.jpg",
