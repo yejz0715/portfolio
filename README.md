@@ -11,25 +11,54 @@
 <h3>기능 및 역할</h3>
 
 * styled-components를 통하여 UI개발을 하였습니다.
+* Globalstyle.js  reset을 설정하였습니다.
+
+<p>src/GlobalStyle.js</p>
 
 ```
-const [isClicked, setClick] = useState(false);
-  const navigate = useNavigate();
-  const handleOnClickPage = () => {
-    setClick(true);
-    setTimeout(function () {
-      navigate("/yejz0715");
-    }, 900);
-  };
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
+export const GlobalStyle = createGlobalStyle`
 
+${reset}
+
+...
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+body{
+  width:100vw;
+  height: 100vh;
+  color: #333;
+  font-family: 'GangwonEdu_OTFLightA';
+  font-weight: 600;
+  background-color:#fafafa;
+}
+`;
+
+```
+src/App.js
+
+```
+
+import AppRouter from "./AppRouter";
+import { GlobalStyle } from "./GlobalStyle";
+function App() {
   return (
-    <IntroPresenter
-      handleOnClickPage={handleOnClickPage}
-      isClicked={isClicked}
-    />
+    <>
+      <GlobalStyle />
+      <AppRouter />
+    </>
   );
-};
+}
+
+export default App;
+
 ```
+
 
 <br/>
 <br/>
