@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FiHome } from "react-icons/fi";
+import { FiHome, FiGithub } from "react-icons/fi";
 import { BiPencil } from "react-icons/bi";
 
 export const HeaderContainer = styled.div`
@@ -69,5 +69,10 @@ export const FiHomeIcon = styled(FiHome)`
 export const BiPencilIcon = styled(BiPencil)`
   &:hover {
     color: #20c997;
+  }
+`;
+export const FiGithubIcon = styled(FiGithub)`
+  &:hover {
+    color: #063a79;
   }
 `;

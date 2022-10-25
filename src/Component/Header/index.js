@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./style.js";
-import { FiGithub } from "react-icons/fi";
+
 const Header = ({ handleOnChange, handleOnKeyEnter }) => {
   return (
     <S.HeaderContainer>
@@ -33,10 +33,12 @@ const Header = ({ handleOnChange, handleOnKeyEnter }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <FiGithub size="24px" cursor="pointer" />
+            <S.FiGithubIcon size="24px" cursor="pointer" />
           </a>
 
-          <S.HeaderIconLabel>github</S.HeaderIconLabel>
+          <S.HeaderIconLabel style={{ backgroundColor: "#063a79" }}>
+            github
+          </S.HeaderIconLabel>
         </S.HeaderIcon>
         <S.HeaderIcon>
           <a href="https://velog.io/@yejz0715" target="_blank" rel="noreferrer">
