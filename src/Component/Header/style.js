@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { FiHome } from "react-icons/fi";
+import { BiPencil } from "react-icons/bi";
+
 export const HeaderContainer = styled.div`
   height: 60px;
   display: flex;
@@ -56,5 +59,15 @@ export const HeaderIcon = styled.li`
     ${HeaderIconLabel} {
       display: inline;
     }
+  }
+`;
+export const FiHomeIcon = styled(FiHome)`
+  &:hover {
+    color: #7c39ae;
+  }
+`;
+export const BiPencilIcon = styled(BiPencil)`
+  &:hover {
+    color: #20c997;
   }
 `;

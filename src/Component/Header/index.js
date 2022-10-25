@@ -1,7 +1,6 @@
 import React from "react";
 import * as S from "./style.js";
-import { FiHome, FiGithub } from "react-icons/fi";
-import { BiPencil } from "react-icons/bi";
+import { FiGithub } from "react-icons/fi";
 const Header = ({ handleOnChange, handleOnKeyEnter }) => {
   return (
     <S.HeaderContainer>
@@ -17,14 +16,13 @@ const Header = ({ handleOnChange, handleOnKeyEnter }) => {
       />
       <S.HeaderIconWrapper>
         <S.HeaderIcon>
-          <FiHome
+          <S.FiHomeIcon
             size="24px"
             cursor="pointer"
             onClick={() => {
               window.location.reload();
             }}
           />
-
           <S.HeaderIconLabel style={{ backgroundColor: "#7C39AE" }}>
             home
           </S.HeaderIconLabel>
@@ -42,7 +40,7 @@ const Header = ({ handleOnChange, handleOnKeyEnter }) => {
         </S.HeaderIcon>
         <S.HeaderIcon>
           <a href="https://velog.io/@yejz0715" target="_blank" rel="noreferrer">
-            <BiPencil size="24px" cursor="pointer" />
+            <S.BiPencilIcon size="24px" cursor="pointer" />
           </a>
           <S.HeaderIconLabel style={{ backgroundColor: "#20C997" }}>
             velog
