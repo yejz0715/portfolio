@@ -6,7 +6,7 @@ const Profile = ({ handleShowStory }) => {
       <S.ProfileImgWrapper>
         <S.ProfileImgLabel>클릭 클릭</S.ProfileImgLabel>
         <S.ProfileImg
-          src={process.env.PUBLIC_URL + "/images/user_yeji.jpg"}
+          src={process.env.PUBLIC_URL + "/images/user_img.png"}
           alt="image"
           onClick={handleShowStory}
         />
@@ -28,10 +28,10 @@ const Profile = ({ handleShowStory }) => {
         </S.Mail>
         <S.Name>이예지</S.Name>
         <S.Contents>
-          안녕하세요! 오랫동안 개발을 하고싶어서 <br />
-          열심히 react 공부중인 예비 개발자 입니다. <br />
+          안녕하세요! 트렌디한 프론트엔드 개발자가 되기 위해 <br />
+          javascript와 react 중점으로 프로젝트를 준비하고 있습니다. <br />
         </S.Contents>
-        <S.Tag>#성실 #노력형 #될때까지 #항상 # 최선을 다하는 중</S.Tag>
+        <S.Tag>#열정 #다양한 #아이디어 #노력형 #항상 #최선을 다하는 중</S.Tag>
       </S.ProfileText>
     </S.Container>
   );

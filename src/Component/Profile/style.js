@@ -35,19 +35,19 @@ export const ProfileImgWrapper = styled.div`
 `;
 
 export const ProfileImg = styled.img`
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   background-color: transparent;
   border-radius: 50%;
 
   border: 2px solid #d9d9d9;
-  padding: 6px;
+  padding: 8px 3px 8px 3px;
 `;
 
 export const ProfileText = styled.div`
   display: flex;
   flex-direction: column;
-  width: 380px;
+  width: 397px;
   margin-left: 60px;
   padding-top: 10px;
   cursor: default;
@@ -101,7 +101,7 @@ export const Name = styled.label`
 export const Contents = styled.label`
   width: 100%;
   color: #646464;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 22px;
   margin-bottom: 8px;
 `;
